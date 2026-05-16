@@ -16,7 +16,7 @@
 
 ## Ссылка на репозиторий
 
-- https://github.com/VeerbeVeerbe/Project_Quiz
+- https://github.com/VeerbeVeerbe/Quiz2notes
 
 ---
 
