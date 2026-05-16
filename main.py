@@ -9,6 +9,7 @@ from config import BOT_TOKEN
 from bot.handlers.stats import router as stats_router
 from bot.handlers.repeat import router as repeat_router
 from bot.handlers.definitions import router as definitions_router
+from bot.handlers.weather import router as weather_router
 
 async def main() -> None:
     """
@@ -23,6 +24,7 @@ async def main() -> None:
     dispatcher.include_router(stats_router)
     dispatcher.include_router(repeat_router)
     dispatcher.include_router(definitions_router)
+    dispatcher.include_router(weather_router)
 
     await dispatcher.start_polling(bot)
 
